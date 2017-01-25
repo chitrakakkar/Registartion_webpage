@@ -49,11 +49,16 @@ body
     background:linear-gradient(#cecede, lightyellow);
 }
 
-/*
+
 input[type=text]
 {
     color: green;
 }
 
-*/
+input[type=email]
+{
+    color: green;
+}
+
+
 
