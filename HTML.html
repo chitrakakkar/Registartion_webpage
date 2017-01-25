@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>My first Web Form</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="container-fluid">
+
+        <div class="navigation">
+            <nav class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><p id="Titlebar">THE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            BIG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp DATA&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CONFERENCE&nbsp</p></a>
+                    </div>
+                </nav>
+<div id="Conference-Title">
+    <h3>The Registration Form</h3>
+    <h5>Register now while seats are available !!! </h5>
+
+</div>
+            <div>
+                <br/>
+            </div>
+            <div id="form-items">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Username</label>
+                        <input type="text" class="form-control" id="name" name="username" size="10" maxlength="70" required="required" placeholder="Enter your Name"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="PWD">Password:</label>
+                        <input type="password" class="form-control" id="pwd" name="password" size="10" maxlength="70" required="required" placeholder="Enter your password"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email" required="required" placeholder="Enter your Email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="tshirt">T-shirt size</label>
+                        <select name="T-shirt" class="form-control" id="tshirt" required="required">
+                            <option></option>
+                            <option>Large</option>
+                            <option>Medium</option>
+                            <option>Small</option>
+
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="DOB">DOB</label>
+                        <input type="date" name="DOB" id="DOB" required="required">
+
+                        </div>
+
+                    <div class="form-group">
+                        <label for ="Yes">Receive mail:</label>
+                        <label for ="Yes">Yes</label>
+                        <input id = "Yes" type="radio" name="email-receive" value="f" required="required">
+                        <label for ="NO">NO</label>
+                        <input id = "NO" type="radio" name="email-receive" value="f" required="required">
+                        </div>
+                    <div class="form-group">
+                        <label> Attending the session</label>
+                        <label><input type="checkbox" name="morning"> Morning</label>
+                        <label><input type="checkbox" name="Afternoon"> Afternoon</label>
+
+                    </div>
+                    <div class="form-group">
+                        <label>Any Special Request:</label>
+                        <textarea class="form-control" name="specialRequest" id="request"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-default" name="submit">Submit</button>
+                </form>
+
+            </div>
+
+
+
+
+
+</div>
+        </div>
+</div>
+
+</body>
+</html>

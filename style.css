@@ -1,0 +1,59 @@
+#Titlebar{
+    font-size: 28px;
+   font-family:"fantasy";
+   color: crimson;
+}
+
+.container-fluid
+{
+
+    color: darkslategray;
+}
+::-webkit-input-placeholder
+{ /* WebKit browsers */
+    color:green;
+    opacity: 1 !important;
+}
+div.container
+{
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-color: white;
+    margin-left: 300px;
+    margin-right: 50px;
+    overflow: auto;
+    height: 750px;
+    width: 600px;
+
+
+}
+h5{
+    color: lightyellow;
+}
+
+body
+{
+    background-image: url("Images/img_form.jpg");
+
+}
+.btn-default
+{
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,  from(#cecede), to(lightyellow));
+
+}
+.navbar {
+
+    background:linear-gradient(#cecede, lightyellow);
+}
+
+/*
+input[type=text]
+{
+    color: green;
+}
+
+*/
+
