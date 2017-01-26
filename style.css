@@ -59,6 +59,12 @@ input[type=email]
 {
     color: green;
 }
+label{
+    color:white;
+}
+h3{
+    color: darkolivegreen;
+}
 
 
 
